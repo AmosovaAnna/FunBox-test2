@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css?family=Exo+2:100');
+html{
+    height: 100%;
+    overflow-x: hidden;
+}
+body{
+    background: url('../img/backgr.png') center center repeat;
+    text-align: center;
+    background-size: cover;
+    display: table;
+    width: 100%;
+    height: 100%;
+}
+#content{
+    display: table-cell;
+    vertical-align: middle;
+}
+h1{
+	text-align: center;
+    margin: 0 0 22px;
+    color: rgb(255, 255, 255);
+    font-family: 'Exo 2', sans-serif;
+    font-size: 36px;
+    text-shadow: 0px 1px 0px rgba(0, 0, 0, 1);
+}
+.products {
+    margin: auto auto;
+}
+.product{
+	background: url('../img/backgr-product.png') no-repeat;
+	display: inline-block;
+	width: 320px;
+	height: 480px;
+	cursor: pointer;
+    background-position: left;
+}
+.product-hover{
+	background-position: 25%;
+}
+.product_selected{
+	background-position: 75%;
+}
+.product_disabled{
+	background-position: 50%;
+    cursor: default;
+}
+.product_selected-hover{
+	background-position: 100%;
+}
+#fish,
+#chickens{
+	margin-left: 80px;
+}
+.viands-hidden,
+.viands{
+    font-size: 16px;
+    font-family: 'Trebuchet MS';
+    color: rgb(102, 102, 102);
+    line-height: 1.2;
+    text-align: left;
+    margin: 0;
+    margin-left: 48px;
+    margin-top: 20px;
+}
+.viands-hidden{
+	display: none;
+	color: #e62e7a;
+}
+.viands_disabled{
+    color: #d4d4d4;
+}
+.product-description{
+	margin-left: 48px;
+	text-align: left;
+}
+.nurse{
+    font-size: 24px;
+    font-family: "Trebuchet MS";
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    line-height: 1.2;
+    text-align: left;
+    margin: 0;
+    margin-bottom: 15px;
+}
+.nurse span{
+    font-size: 48px;
+    font-family: "Trebuchet MS";
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    line-height: 1.2;
+    text-align: left;
+    margin: 0;
+}
+strong {
+    font-weight: bold;
+}
+.quantity,
+.present,
+.additionally{
+	font-size: 14px;
+    font-family: "Trebuchet MS";
+    color: rgb(102, 102, 102);
+    font-weight: bold;
+    line-height: 1.143;
+    text-align: left;
+    margin: 0;
+}
+.quantity_disabled,
+.present_disabled,
+.additionally_disabled,
+.nurse_disabled,
+.nurse_disabled span{
+    color: #d4d4d4;
+}
+.ponderosity{
+	border-radius: 50%;
+    background-color: rgb(22, 152, 217);
+    width: 51px;
+    height: 51px;
+    color: rgb(255, 255, 255);
+    padding: 15px;
+    font-size: 25px;
+    font-family: "Trebuchet MS";
+    line-height: 0.524;
+    text-align: center;
+    margin-left: 70%;
+    margin-top: 61%;
+}
+#chickens .ponderosity{
+	margin-top: 62%;
+}
+.ponderosity p{
+    margin: 0;
+    margin-bottom: 12px;
+    margin-top: 8px;
+}
+.ponderosity span{
+    font-size: 38px;
+}
+.ponderosity-hover{
+	background-color: #2ea8e6;
+}
+.ponderosity_selected{
+	background-color: #d91667;
+}
+.ponderosity_disabled{
+	background-color: #b3b3b3;
+}
+.ponderosity_selected-hover{
+	background-color: #e62e7a;
+}
+.product-card{
+	margin: 0;
+    font-size: 13px;
+    font-family: "Trebuchet MS";
+    color: rgb(255, 255, 255);
+    line-height: 1.231;
+    text-align: center;
+    text-shadow: 0px 1px 0px rgba(0, 0, 0, 1);
+    display: inline-block;
+    margin-top: 30px;
+    cursor: default;
+}
+.buy{
+	text-decoration: none;
+	color: #1698d9;
+	border-bottom: 1px dashed #1698d9;
+	cursor: pointer;
+}
+.buy-hover{
+	color: #2ea8e6;
+	border-bottom: 1px dashed #2ea8e6;
+}
